@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react-todo-list
+  labels:
+    app: react-todo-list
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: react-todo-list
+  template:
+    metadata:
+      labels:
+        app: react-todo-list
+    spec:
+      containers:
+      - name: react-todo-list
+        image: skrishnareddy/react-todo-list:latest
+        ports:
+        - containerPort: 3000
+        imagePullPolicy: Always
+
