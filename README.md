@@ -1,5 +1,3 @@
-# React-Todo-List-Deployment
-
 # React-Todo-list
 
 This is a React To-Do list app developed by me to learn and enhance my React skills.
@@ -23,7 +21,6 @@ This is a React To-Do list app developed by me to learn and enhance my React ski
 
 ## Docker Output
 
-```plaintext
 > todo-react@0.1.0 start
 > react-scripts start
 
@@ -50,19 +47,12 @@ Compiling...
 Compiled successfully!
 webpack compiled successfully
 
-
-
-#Kubernetes Output
+## Kubernetes Output
 
 NAME                          READY   STATUS    RESTARTS   AGE
 react-todo-758b8587f5-r99sl   1/1     Running   0          5m
 
-https://github.com/Skrishnreddy/React-Todo-List-Deployment/blob/main/Screenshot%20(54).png?raw=true
-https://github.com/Skrishnreddy/React-Todo-List-Deployment/blob/main/Screenshot%20(55).png?raw=true
-https://github.com/Skrishnreddy/React-Todo-List-Deployment/blob/main/Screenshot%20(56).png?raw=true
-https://github.com/Skrishnreddy/React-Todo-List-Deployment/blob/main/Screenshot%20(57).png?raw=true
-
-
-
-
-
+![Screenshot 1](https://github.com/Skrishnreddy/React-Todo-List-Deployment/blob/main/Screenshot%20(54).png?raw=true)
+![Screenshot 2](https://github.com/Skrishnreddy/React-Todo-List-Deployment/blob/main/Screenshot%20(55).png?raw=true)
+![Screenshot 3](https://github.com/Skrishnreddy/React-Todo-List-Deployment/blob/main/Screenshot%20(56).png?raw=true)
+![Screenshot 4](https://github.com/Skrishnreddy/React-Todo-List-Deployment/blob/main/Screenshot%20(57).png?raw=true)
